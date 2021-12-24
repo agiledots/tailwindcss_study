@@ -1,0 +1,31 @@
+{
+  "name": "tailwindcss_study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "postcss src/**/*.css -d public/styles -m",
+    "css:watch": "postcss src/**/*.css -d public/styles -m -w",
+    "start": "gulp"
+  },
+  "keywords": [],
+  "author": "dotuian <agiledots@gmail.com> (https://github.com/agiledots)",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "postcss": "^8.4.5",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6",
+    "tailwindcss": "^3.0.7"
+  },
+  "dependencies": {
+    "postcss-cli": "^9.1.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "ie >= 11",
+    "Android >= 4"
+  ]
+}
